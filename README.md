@@ -36,7 +36,7 @@ into transfer learning by utilizing pre-trained models for improved performance.
 The repository contains the following files:
 
 - dog_app.ipynb: Jupyter Notebook containing the project code, including data loading, model building, training, and evaluation.
-- report.pdf: Report of project and showcase of results.
+- Dog Breed Report.pdf: Report of project and showcase of results.
 - extract_bottleneck_features.py: Python script used to extract bottleneck features from pre-trained CNN models.
 - classifier.py: Python script that takes functions from the dog_app.ipynb file to classify photos for website.
 - run.py: Runs flask app
