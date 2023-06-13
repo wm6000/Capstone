@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dog Breed Classifier</title>
+</head>
+<body>
+    <h1>Dog Breed Classifier</h1>
+    <h3>Upload an image of a dog to find the out the breed or upload a photo of someone to see what breed a human looks similar to.</h3>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Upload">
+    </form>
+    {% if result %}
+        <p>{{ result }}</p>
+        {% if image_path %}
+            <img src="{{ image_path }}" alt="Uploaded Image">
+        {% endif %}
+    {% endif %}
+</body>
+</html>
