@@ -4,6 +4,9 @@ This project aims to develop a Convolutional Neural Network (CNN) pipeline to
 classify images of dogs into their respective breeds. Additionally, it suggests 
 resembling dog breeds for images of humans.
 
+## Code
+Open dog_app.ipynb to view project.
+
 ## Instructions
 1. Clone this repository
 2. Install requirements from requirement.txt
@@ -33,6 +36,7 @@ into transfer learning by utilizing pre-trained models for improved performance.
 The repository contains the following files:
 
 - dog_app.ipynb: Jupyter Notebook containing the project code, including data loading, model building, training, and evaluation.
+- report.pdf: Report of project and showcase of results.
 - extract_bottleneck_features.py: Python script used to extract bottleneck features from pre-trained CNN models.
 - classifier.py: Python script that takes functions from the dog_app.ipynb file to classify photos for website.
 - run.py: Runs flask app
